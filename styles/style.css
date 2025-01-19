@@ -4,7 +4,7 @@
 
   
   
-  /* body section */
+  /* BODY STYLES */
 
   .site-color{background-color: rgba(0, 0, 0, 0.805);
 
@@ -17,7 +17,7 @@
     font-style: normal;
   }
 
-  /* common styles */
+  /* COMMON STYLES */
 
   .btn-primary{
    width: 200px;
@@ -32,7 +32,7 @@ color: rgb(255, 255, 255);
   }
 
 
-  /* header section styles */ 
+  /* HEADER SECTION STYLES */ 
 
   .header{
     
@@ -122,6 +122,17 @@ padding-top: 10px;
 font-size: 1rem;
 font-weight: 600;
 color: rgb(255, 255, 255);
-background-color: black;
+background-color: black;}
+
+/* CHANGE YOUR HABITS STYLES */
+
+.change-habit-section{
+  margin: 150px 180px;
+}
+ 
+  .habit-box{
+    display: flex;
+    justify-content: space-between;
+
   }
-  
+
