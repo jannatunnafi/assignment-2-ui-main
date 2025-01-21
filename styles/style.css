@@ -49,6 +49,10 @@ color: rgb(255, 255, 255);
     justify-content: space-between;
   }
 
+  .material-symbols-outlined{
+    visibility: hidden;
+  }
+
 
   nav>ul{
     display: flex;
@@ -276,5 +280,48 @@ width: 200px;
     border-radius: 50%;
   }
 
+
+  /* RESPONSIVE STYLES FOR MOBILE */
+
+  
+
+
+
+  @media screen and (max-width:576px) {
+    .header-box{
+      flex-direction: column;
+    }
+
+    .header{
+      width: 393px;
+     height: 800px;
+     margin: 0 auto;
+     
+    }
+
+    nav>ul{
+      visibility: hidden;
+    }
+
+    .material-symbols-outlined{
+      visibility: visible;
+      color: rgb(255, 255, 255);
+      margin-left: 220px;
+    }
+
+    nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+
+
+
+   
+    }
+    
+  
 
 
