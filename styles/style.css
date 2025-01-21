@@ -124,6 +124,73 @@ font-weight: 600;
 color: rgb(255, 255, 255);
 background-color: black;}
 
+
+.btn-first{
+  margin-left: 220px;
+ margin-top: 115px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+
+background: rgba(255, 255, 255, 0.1);
+padding: 12px 20px;
+width: 180px;
+position: absolute;
+ 
+  
+}
+
+.btn-text-title{
+  color: rgb(255, 255, 255);
+
+font-size: 2.50rem;
+font-weight: 900;
+}
+
+.btn-sub{
+  color: rgba(255, 255, 255, 0.65);
+
+font-size: 0.813rem;
+font-weight: 400;
+}
+
+.btn-second{
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.1);
+padding: 12px 20px;
+width: 180px;
+
+
+
+}
+
+.btn-title-sec{
+ 
+font-weight: 800;
+font-size: 1.50rem;
+color: rgb(250, 250, 249);
+
+}
+
+.btn-sub-sec{
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.header-image>img{
+  width: 350px;
+  height: 580px;
+ 
+}
+
+
+
+.header-content{
+  margin-right: 250px;
+}
+
 /* CHANGE YOUR HABITS STYLES */
 
 .change-habit-section{
@@ -193,7 +260,7 @@ width: 200px;
 
   }
 
-  img{
+ .habit-cards> img{
     overflow: hidden;
     border-radius: 50%;
   }
