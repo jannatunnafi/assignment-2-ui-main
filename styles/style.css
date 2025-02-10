@@ -216,6 +216,7 @@ color: rgb(250, 250, 249);
   .habit-box{
     display: flex;
     justify-content: space-between;
+    margin-top: 45px;
    
     
     
@@ -290,11 +291,12 @@ max-width: 200px;
   @media screen and (max-width:576px) {
     .header-box{
       flex-direction: column;
+      
     }
 
     .header{
-      max-width: 500px;
-     max-height: 800px;
+     width: 300px;
+   height: 800px;
      margin-top: 30px;
      margin-left: 32px;
      margin-right: 120px;
@@ -359,6 +361,72 @@ max-width: 200px;
 
   }
 
+  .header-image>img{
+
+    height: 500px;
+    width: 340px;
+
+  }
+
+  .header-image{
+    margin-left: 32px;
+    margin-top: -90px;
+    
+
+  }
+
+  .btn-first{
+    margin-left: 240px;
+   margin-top: 80px;
+   
+ 
+  width: 140px;
+  
+  position: absolute;
+   
+    
+  }
+
+  .btn-text-title{
+ 
+  
+  font-size: 1.88rem;
+  font-weight: 800;
+  }
+  
+  .btn-sub{
+    color: rgba(255, 255, 255, 0.65);
+  
+  font-size: 0.625rem;
+  font-weight: 500;
+  }
+
+  .btn-title-sec{
+ 
+    font-weight: 700;
+    font-size: 1.13rem;
+    
+    
+    }
+    
+    .btn-sub-sec{
+      
+      font-size: 0.750rem;
+      font-weight: 400;
+    }
+
+  .btn-second{
+
+    
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -160px ;
+   
+    
+    }
+
    
 
    
@@ -367,7 +435,47 @@ max-width: 200px;
 
    .habit-box{
     flex-direction: column;
+    margin-top: 150px;
+    width: 380px;
+    height: 700px;
+
    }
+
+   .habits-content{
+    height: 50px;
+    width: 350px;
+    margin-right: 10px;
+    margin-left: 5px;
+   
+   }
+
+   .change-habit-section{
+    margin-top: 540px;
+    margin-right: 100px ;
+    margin-left: 50px;
+   }
+
+   
+   .section-title{
+    
+
+font-size: 2rem;
+font-weight: 700;
+text-align: center;
+
+  }
+
+  .section-description{
+    text-align: center;
+   
+
+font-size: 0.875rem;
+
+
+
+  }
+
+  
 
    
     }
