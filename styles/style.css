@@ -304,9 +304,7 @@ max-width: 200px;
      
     }
 
-    .mobile-page{
-      overflow: hidden;
-    }
+   
 
     nav>ul{
       visibility: hidden;
